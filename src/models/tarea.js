@@ -1,7 +1,7 @@
 import mongoose, {Schema} from "mongoose";
 
 const tareaSchema = new Schema({
-    nombreTarea:{
+    tarea:{
         type: String,
         required: true,
         unique:true,
